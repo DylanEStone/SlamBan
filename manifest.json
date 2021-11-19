@@ -1,0 +1,12 @@
+{
+  "name": "Slam Ban",
+  "description": "Remove headlines with the word slam in them.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+      {
+          "matches": ["http://yahoo.com/*", "https://www.yahoo.com/*"],
+          "js": ["myscript.js"]
+      }
+  ]
+}
